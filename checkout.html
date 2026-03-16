@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Checkout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div style="text-align:center;margin-top:100px;">
+
+<h1>Order Placed Successfully 🎉</h1>
+
+<p>Thank you for shopping with us.</p>
+
+<button onclick="goHome()">Continue Shopping</button>
+
+</div>
+
+<script>
+
+localStorage.removeItem("cart");
+
+function goHome(){
+
+window.location.href="index.html";
+
+}
+
+</script>
+
+</body>
+
+</html>
